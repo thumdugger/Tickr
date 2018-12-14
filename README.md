@@ -1,2 +1,2 @@
-# Tickr
-R script logging package mostly for learning R scripting and packaging
+# Tikr
+R script logging package mostly for me learning R scripting and packaging
