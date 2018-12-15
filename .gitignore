@@ -16,7 +16,8 @@
 
 # RStudio files
 .Rproj.user/
-
+*.Rproj
+packrat/
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
@@ -34,3 +35,9 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+# fossil SCM that I use for my own coding
+.fslckout
+
+# Ignore the initial cut and paste code file
+/tickr.R

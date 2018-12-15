@@ -1,0 +1,22 @@
+Package: tickr
+Type: Package
+Encoding: UTF-8
+Title: App Logging Made a Little Easier
+Description: Mostly my attempt at learning R combined with my take on logging
+    timed events during code execution.  Since I found the result useful I 
+    figured I would also try learning how to package things in R so that I 
+    might be able to reuse the usefulness in other code without resorting to 
+    monkey-VyP methodologies.
+Version: 2018.12.1209
+Author: Scott Barnett <thumdugger@gmail.com>
+Maintainer: Scott Barnett <thumdugger@gmail.com>
+License: GPL (>= 2)
+Depends:
+   methods,
+   R (>= 3.0.0)
+Imports:
+   lubridate,
+   tibble
+LazyData: true
+RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
